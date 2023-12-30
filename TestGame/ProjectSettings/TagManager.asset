@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Money
+  - Ground
+  - Trigger
+  - Level0SpawnPoint
+  - Throwable
+  - Drag
+  - Figure
+  - Weapon
+  - Enemy
+  - Points
+  - Chest
+  - GoldChest
+  - WoodChest
+  - Draggable
+  - RedTrigger
+  - Handle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Minimap
+  - Draggable
+  - Player
+  - Post Processing
+  - Weapon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
