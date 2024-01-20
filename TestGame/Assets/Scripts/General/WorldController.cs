@@ -16,8 +16,6 @@ public class WorldController : MonoBehaviour
     private string lastLevelName;
     private Vector3 lastPosition;
     private Vector3 boxposition = new Vector3(-21.48f, 3.97f, 3.52f);
-    //[SerializeField]private Vector3 boxposition = new Vector3(-10f, 20f, 5f);
-    //private Vector3 level2spawn = new Vector3(-1.859f, 0.817f, -3.516f);
     private Vector3 defaultposition = new Vector3(68.43f, 92.61866f, 72.6154f);
     [Header("Второй уровень")]  
     public GameObject LEVEL2;
@@ -56,7 +54,7 @@ public class WorldController : MonoBehaviour
             UnloadLevel();
             LoadLevel(levelName);
 
-            // Revert player pos to saved
+            // Revert player pos to saved          
             FirstPersonMovement.shared.gameObject.transform.position = boxposition;
         }
     }

@@ -78,6 +78,7 @@ public class Pause : MonoBehaviour
         DisablePanel();
         GameLogic.Instance.RubyItem();
         Coins.Instance.DeleteCoinsValue(true);
+        TriggerForFigure.FigureValue = 0;
     }  
     public void DisablePanel()
     {
