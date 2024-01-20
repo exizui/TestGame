@@ -15,7 +15,7 @@ public class ReturnPlayer : MonoBehaviour
     }
     private void Start()
     {
-        _player = GameObject.Find("player");
+        _player = FirstPersonMovement.shared.gameObject;
     }
 
     public void Disabled()
